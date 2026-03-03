@@ -1,0 +1,476 @@
+{
+  "version": 1,
+  "updated": "2026-03-02T00:00:00Z",
+  "keywords": [
+    {
+      "pattern": "thread 'main' panicked",
+      "severity": "FATAL",
+      "category": "crash",
+      "description": "Rust panic — nosana-node process crashed",
+      "source": "manual",
+      "discovered": "2026-03-02",
+      "confidence": 1.0,
+      "occurrences": 0
+    },
+    {
+      "pattern": "connection refused",
+      "severity": "ERROR",
+      "category": "network",
+      "description": "TCP connection refused — target service unreachable",
+      "source": "manual",
+      "discovered": "2026-03-02",
+      "confidence": 0.95,
+      "occurrences": 0
+    },
+    {
+      "pattern": "getaddrinfo EAI_AGAIN",
+      "severity": "ERROR",
+      "category": "network",
+      "description": "DNS resolution failure — temporary DNS outage",
+      "source": "manual",
+      "discovered": "2026-03-02",
+      "confidence": 0.95,
+      "occurrences": 0
+    },
+    {
+      "pattern": "getaddrinfo ENOTFOUND",
+      "severity": "ERROR",
+      "category": "network",
+      "description": "DNS resolution failure — hostname not found",
+      "source": "manual",
+      "discovered": "2026-03-02",
+      "confidence": 0.95,
+      "occurrences": 0
+    },
+    {
+      "pattern": "ECONNRESET",
+      "severity": "WARN",
+      "category": "network",
+      "description": "Connection reset by peer — remote closed unexpectedly",
+      "source": "manual",
+      "discovered": "2026-03-02",
+      "confidence": 0.90,
+      "occurrences": 0
+    },
+    {
+      "pattern": "ETIMEDOUT",
+      "severity": "WARN",
+      "category": "network",
+      "description": "Connection timed out — network or server too slow",
+      "source": "manual",
+      "discovered": "2026-03-02",
+      "confidence": 0.90,
+      "occurrences": 0
+    },
+    {
+      "pattern": "ECONNREFUSED",
+      "severity": "ERROR",
+      "category": "network",
+      "description": "Connection refused — service not listening on port",
+      "source": "manual",
+      "discovered": "2026-03-02",
+      "confidence": 0.95,
+      "occurrences": 0
+    },
+    {
+      "pattern": "blockhash expired",
+      "severity": "WARN",
+      "category": "solana",
+      "description": "Solana transaction expired — blockhash too old",
+      "source": "manual",
+      "discovered": "2026-03-02",
+      "confidence": 0.95,
+      "occurrences": 0
+    },
+    {
+      "pattern": "TransactionExpiredBlockheightExceededError",
+      "severity": "WARN",
+      "category": "solana",
+      "description": "Solana transaction expired — block height exceeded",
+      "source": "manual",
+      "discovered": "2026-03-02",
+      "confidence": 0.95,
+      "occurrences": 0
+    },
+    {
+      "pattern": "insufficient funds",
+      "severity": "ERROR",
+      "category": "solana",
+      "description": "Wallet has insufficient SOL for transaction fees",
+      "source": "manual",
+      "discovered": "2026-03-02",
+      "confidence": 0.95,
+      "occurrences": 0
+    },
+    {
+      "pattern": "AccountNotFound",
+      "severity": "ERROR",
+      "category": "solana",
+      "description": "Solana account not found on-chain",
+      "source": "manual",
+      "discovered": "2026-03-02",
+      "confidence": 0.90,
+      "occurrences": 0
+    },
+    {
+      "pattern": "Too many requests",
+      "severity": "WARN",
+      "category": "ratelimit",
+      "description": "HTTP 429 — rate limited by upstream service",
+      "source": "manual",
+      "discovered": "2026-03-02",
+      "confidence": 0.90,
+      "occurrences": 0
+    },
+    {
+      "pattern": "429 Too Many",
+      "severity": "WARN",
+      "category": "ratelimit",
+      "description": "HTTP 429 — rate limited by upstream service",
+      "source": "manual",
+      "discovered": "2026-03-02",
+      "confidence": 0.90,
+      "occurrences": 0
+    },
+    {
+      "pattern": "OOMKilled",
+      "severity": "FATAL",
+      "category": "resource",
+      "description": "Container killed by OOM (out of memory)",
+      "source": "manual",
+      "discovered": "2026-03-02",
+      "confidence": 1.0,
+      "occurrences": 0
+    },
+    {
+      "pattern": "out of memory",
+      "severity": "FATAL",
+      "category": "resource",
+      "description": "Process ran out of memory",
+      "source": "manual",
+      "discovered": "2026-03-02",
+      "confidence": 0.95,
+      "occurrences": 0
+    },
+    {
+      "pattern": "No space left on device",
+      "severity": "FATAL",
+      "category": "resource",
+      "description": "Disk full — no space left on device",
+      "source": "manual",
+      "discovered": "2026-03-02",
+      "confidence": 1.0,
+      "occurrences": 0
+    },
+    {
+      "pattern": "CUDA out of memory",
+      "severity": "FATAL",
+      "category": "gpu",
+      "description": "GPU VRAM exhausted during inference/training",
+      "source": "manual",
+      "discovered": "2026-03-02",
+      "confidence": 1.0,
+      "occurrences": 0
+    },
+    {
+      "pattern": "CUDA error",
+      "severity": "ERROR",
+      "category": "gpu",
+      "description": "CUDA runtime error — GPU driver or hardware issue",
+      "source": "manual",
+      "discovered": "2026-03-02",
+      "confidence": 0.95,
+      "occurrences": 0
+    },
+    {
+      "pattern": "NCCL error",
+      "severity": "ERROR",
+      "category": "gpu",
+      "description": "NVIDIA NCCL communication library error",
+      "source": "manual",
+      "discovered": "2026-03-02",
+      "confidence": 0.95,
+      "occurrences": 0
+    },
+    {
+      "pattern": "GPU has fallen off the bus",
+      "severity": "FATAL",
+      "category": "gpu",
+      "description": "GPU hardware failure — lost PCIe connection",
+      "source": "manual",
+      "discovered": "2026-03-02",
+      "confidence": 1.0,
+      "occurrences": 0
+    },
+    {
+      "pattern": "Xid (PCI",
+      "severity": "ERROR",
+      "category": "gpu",
+      "description": "NVIDIA Xid error — GPU hardware/driver issue",
+      "source": "manual",
+      "discovered": "2026-03-02",
+      "confidence": 0.95,
+      "occurrences": 0
+    },
+    {
+      "pattern": "SIGKILL",
+      "severity": "FATAL",
+      "category": "process",
+      "description": "Process killed by SIGKILL (signal 9)",
+      "source": "manual",
+      "discovered": "2026-03-02",
+      "confidence": 0.90,
+      "occurrences": 0
+    },
+    {
+      "pattern": "SIGSEGV",
+      "severity": "FATAL",
+      "category": "crash",
+      "description": "Segmentation fault — memory access violation",
+      "source": "manual",
+      "discovered": "2026-03-02",
+      "confidence": 1.0,
+      "occurrences": 0
+    },
+    {
+      "pattern": "exit code 137",
+      "severity": "ERROR",
+      "category": "resource",
+      "description": "Container killed (exit 137) — usually OOM or manual kill",
+      "source": "manual",
+      "discovered": "2026-03-02",
+      "confidence": 0.90,
+      "occurrences": 0
+    },
+    {
+      "pattern": "exit code 1",
+      "severity": "ERROR",
+      "category": "process",
+      "description": "Container exited with error code 1",
+      "source": "manual",
+      "discovered": "2026-03-02",
+      "confidence": 0.80,
+      "occurrences": 0
+    },
+    {
+      "pattern": "certificate has expired",
+      "severity": "ERROR",
+      "category": "tls",
+      "description": "TLS/SSL certificate expired",
+      "source": "manual",
+      "discovered": "2026-03-02",
+      "confidence": 0.95,
+      "occurrences": 0
+    },
+    {
+      "pattern": "self-signed certificate",
+      "severity": "WARN",
+      "category": "tls",
+      "description": "TLS self-signed certificate not trusted",
+      "source": "manual",
+      "discovered": "2026-03-02",
+      "confidence": 0.90,
+      "occurrences": 0
+    },
+    {
+      "pattern": "CERTIFICATE_VERIFY_FAILED",
+      "severity": "ERROR",
+      "category": "tls",
+      "description": "TLS certificate verification failed",
+      "source": "manual",
+      "discovered": "2026-03-02",
+      "confidence": 0.95,
+      "occurrences": 0
+    },
+    {
+      "pattern": "permission denied",
+      "severity": "ERROR",
+      "category": "permissions",
+      "description": "Filesystem or process permission denied",
+      "source": "manual",
+      "discovered": "2026-03-02",
+      "confidence": 0.85,
+      "occurrences": 0
+    },
+    {
+      "pattern": "Failed to submit transaction",
+      "severity": "WARN",
+      "category": "solana",
+      "description": "Solana transaction submission failed",
+      "source": "manual",
+      "discovered": "2026-03-02",
+      "confidence": 0.90,
+      "occurrences": 0
+    },
+    {
+      "pattern": "RPC request error",
+      "severity": "ERROR",
+      "category": "solana",
+      "description": "Solana RPC request failed",
+      "source": "manual",
+      "discovered": "2026-03-02",
+      "confidence": 0.90,
+      "occurrences": 0
+    },
+    {
+      "pattern": "Node is behind",
+      "severity": "WARN",
+      "category": "solana",
+      "description": "Solana RPC node is behind the network",
+      "source": "manual",
+      "discovered": "2026-03-02",
+      "confidence": 0.90,
+      "occurrences": 0
+    },
+    {
+      "pattern": "SlotSkipped",
+      "severity": "INFO",
+      "category": "solana",
+      "description": "Solana slot was skipped — normal network behavior",
+      "source": "manual",
+      "discovered": "2026-03-02",
+      "confidence": 0.85,
+      "occurrences": 0
+    },
+    {
+      "pattern": "frpc login to server failed",
+      "severity": "ERROR",
+      "category": "frpc",
+      "description": "frpc reverse proxy failed to connect to server",
+      "source": "manual",
+      "discovered": "2026-03-02",
+      "confidence": 0.95,
+      "occurrences": 0
+    },
+    {
+      "pattern": "proxy already exists",
+      "severity": "WARN",
+      "category": "frpc",
+      "description": "frpc proxy name conflict — already registered",
+      "source": "manual",
+      "discovered": "2026-03-02",
+      "confidence": 0.90,
+      "occurrences": 0
+    },
+    {
+      "pattern": "work connection closed",
+      "severity": "WARN",
+      "category": "frpc",
+      "description": "frpc work connection dropped — tunnel interrupted",
+      "source": "manual",
+      "discovered": "2026-03-02",
+      "confidence": 0.85,
+      "occurrences": 0
+    },
+    {
+      "pattern": "Unexpected token",
+      "severity": "ERROR",
+      "category": "parsing",
+      "description": "JSON/XML parse error — unexpected token in response",
+      "source": "manual",
+      "discovered": "2026-03-02",
+      "confidence": 0.90,
+      "occurrences": 0
+    },
+    {
+      "pattern": "SyntaxError",
+      "severity": "ERROR",
+      "category": "parsing",
+      "description": "Syntax error in code or data parsing",
+      "source": "manual",
+      "discovered": "2026-03-02",
+      "confidence": 0.85,
+      "occurrences": 0
+    },
+    {
+      "pattern": "container not found",
+      "severity": "ERROR",
+      "category": "container",
+      "description": "Referenced container does not exist",
+      "source": "manual",
+      "discovered": "2026-03-02",
+      "confidence": 0.90,
+      "occurrences": 0
+    },
+    {
+      "pattern": "image not known",
+      "severity": "ERROR",
+      "category": "container",
+      "description": "Container image not found locally or in registry",
+      "source": "manual",
+      "discovered": "2026-03-02",
+      "confidence": 0.90,
+      "occurrences": 0
+    },
+    {
+      "pattern": "pod was restarted",
+      "severity": "WARN",
+      "category": "container",
+      "description": "Pod/container was restarted automatically",
+      "source": "manual",
+      "discovered": "2026-03-02",
+      "confidence": 0.85,
+      "occurrences": 0
+    },
+    {
+      "pattern": "market.*closed",
+      "severity": "WARN",
+      "category": "nosana",
+      "description": "Nosana market is closed — no jobs available",
+      "source": "manual",
+      "discovered": "2026-03-02",
+      "confidence": 0.85,
+      "occurrences": 0
+    },
+    {
+      "pattern": "stake.*insufficient",
+      "severity": "ERROR",
+      "category": "nosana",
+      "description": "Insufficient NOS stake for the selected market",
+      "source": "manual",
+      "discovered": "2026-03-02",
+      "confidence": 0.90,
+      "occurrences": 0
+    },
+    {
+      "pattern": "not whitelisted",
+      "severity": "ERROR",
+      "category": "nosana",
+      "description": "Node wallet not whitelisted for this market",
+      "source": "manual",
+      "discovered": "2026-03-02",
+      "confidence": 0.90,
+      "occurrences": 0
+    },
+    {
+      "pattern": "healthcheck failed",
+      "severity": "ERROR",
+      "category": "container",
+      "description": "Container healthcheck failed",
+      "source": "manual",
+      "discovered": "2026-03-02",
+      "confidence": 0.90,
+      "occurrences": 0
+    },
+    {
+      "pattern": "nvidia-container-cli",
+      "severity": "ERROR",
+      "category": "gpu",
+      "description": "NVIDIA container runtime error — GPU passthrough failed",
+      "source": "manual",
+      "discovered": "2026-03-02",
+      "confidence": 0.90,
+      "occurrences": 0
+    },
+    {
+      "pattern": "driver/library version mismatch",
+      "severity": "FATAL",
+      "category": "gpu",
+      "description": "NVIDIA driver version doesn't match CUDA library version",
+      "source": "manual",
+      "discovered": "2026-03-02",
+      "confidence": 1.0,
+      "occurrences": 0
+    }
+  ]
+}

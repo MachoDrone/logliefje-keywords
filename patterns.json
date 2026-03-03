@@ -1,0 +1,70 @@
+{
+  "version": 1,
+  "updated": "2026-03-02T00:00:00Z",
+  "patterns": [
+    {
+      "name": "rust_panic_stacktrace",
+      "regex": "thread '.*' panicked at[\\s\\S]{0,500}?(?:stack backtrace:|note: run with)",
+      "severity": "FATAL",
+      "category": "crash",
+      "description": "Rust panic with stack backtrace",
+      "multiline": true
+    },
+    {
+      "name": "python_traceback",
+      "regex": "Traceback \\(most recent call last\\)[\\s\\S]{0,2000}?(?:Error|Exception):.+",
+      "severity": "ERROR",
+      "category": "crash",
+      "description": "Python exception traceback",
+      "multiline": true
+    },
+    {
+      "name": "node_error_stack",
+      "regex": "(?:Error|TypeError|ReferenceError|RangeError):.+\\n(?:\\s+at .+\\n){1,10}",
+      "severity": "ERROR",
+      "category": "crash",
+      "description": "Node.js error with stack trace",
+      "multiline": true
+    },
+    {
+      "name": "repeated_restart_pattern",
+      "regex": "(?:Starting|Restarting|Started).*(?:nosana-node|frpc).*\\n(?:.*\\n){0,5}(?:Starting|Restarting|Started).*(?:nosana-node|frpc)",
+      "severity": "WARN",
+      "category": "stability",
+      "description": "Container restart loop — multiple restarts in quick succession",
+      "multiline": true
+    },
+    {
+      "name": "oom_kill_sequence",
+      "regex": "(?:Memory cgroup out of memory|Kill process|oom-kill|OOMKilled)[\\s\\S]{0,300}?(?:Killed|exit code 137|OOM)",
+      "severity": "FATAL",
+      "category": "resource",
+      "description": "OOM kill event — kernel killed a process for memory pressure",
+      "multiline": true
+    },
+    {
+      "name": "gpu_xid_error",
+      "regex": "NVRM: Xid \\(PCI:[^)]+\\): (\\d+),",
+      "severity": "ERROR",
+      "category": "gpu",
+      "description": "NVIDIA Xid error event from kernel",
+      "multiline": false
+    },
+    {
+      "name": "solana_rpc_failure_burst",
+      "regex": "(?:RPC request error|Failed to send|blockhash expired).*\\n(?:.*(?:RPC request error|Failed to send|blockhash expired).*\\n){2,}",
+      "severity": "ERROR",
+      "category": "solana",
+      "description": "Burst of Solana RPC failures — possible network or RPC issues",
+      "multiline": true
+    },
+    {
+      "name": "disk_io_error",
+      "regex": "(?:I/O error|blk_update_request|Buffer I/O error)[\\s\\S]{0,200}?(?:dev \\w+|sector \\d+)",
+      "severity": "FATAL",
+      "category": "hardware",
+      "description": "Disk I/O error — possible hardware failure",
+      "multiline": true
+    }
+  ]
+}

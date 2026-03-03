@@ -1,0 +1,98 @@
+{
+  "version": 1,
+  "updated": "2026-03-02T00:00:00Z",
+  "false_positives": [
+    {
+      "pattern": "0 errors",
+      "description": "Zero error count — not an actual error"
+    },
+    {
+      "pattern": "error: 0",
+      "description": "Zero error count — not an actual error"
+    },
+    {
+      "pattern": "errors: 0",
+      "description": "Zero error count — not an actual error"
+    },
+    {
+      "pattern": "no errors",
+      "description": "Explicit no-error statement"
+    },
+    {
+      "pattern": "error_count=0",
+      "description": "Zero error counter in structured logs"
+    },
+    {
+      "pattern": "error handling",
+      "description": "Code reference to error handling, not an actual error"
+    },
+    {
+      "pattern": "error_handler",
+      "description": "Code reference to error handler function"
+    },
+    {
+      "pattern": "ErrorBoundary",
+      "description": "React error boundary component name"
+    },
+    {
+      "pattern": "[OK]",
+      "description": "LogLiefje substitution for checkmark — indicates success"
+    },
+    {
+      "pattern": "[FAIL]",
+      "description": "LogLiefje substitution for X mark — already processed"
+    },
+    {
+      "pattern": "successfully",
+      "description": "Success message containing the word"
+    },
+    {
+      "pattern": "completed successfully",
+      "description": "Task completion message"
+    },
+    {
+      "pattern": "Connection established",
+      "description": "Successful connection message (not an error)"
+    },
+    {
+      "pattern": "Listening on",
+      "description": "Service startup listening message"
+    },
+    {
+      "pattern": "Started proxy",
+      "description": "frpc proxy started successfully"
+    },
+    {
+      "pattern": "login to server success",
+      "description": "frpc successful login"
+    },
+    {
+      "pattern": "error.rs",
+      "description": "Rust error module filename — not an actual error"
+    },
+    {
+      "pattern": "error.go",
+      "description": "Go error source filename — not an actual error"
+    },
+    {
+      "pattern": "error.js",
+      "description": "JavaScript error module filename"
+    },
+    {
+      "pattern": "error.py",
+      "description": "Python error module filename"
+    },
+    {
+      "pattern": "loglevel=error",
+      "description": "Log level configuration — not an actual error"
+    },
+    {
+      "pattern": "log_level.*error",
+      "description": "Log level configuration — not an actual error"
+    },
+    {
+      "pattern": "--error",
+      "description": "CLI flag containing error — not an actual error"
+    }
+  ]
+}
