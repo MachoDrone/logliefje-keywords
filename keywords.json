@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated": "2026-03-06T23:04:40Z",
+  "updated": "2026-03-06T23:04:42Z",
   "keywords": [
     {
       "pattern": "thread 'main' panicked",
@@ -580,6 +580,46 @@
       "source": "ai",
       "discovered": "2026-03-06",
       "confidence": 0.8,
+      "occurrences": 1
+    },
+    {
+      "pattern": "Error Name: Error",
+      "severity": "ERROR",
+      "category": "Generic Error",
+      "description": "A generic error message that does not provide specific details.",
+      "source": "ai",
+      "discovered": "2026-03-06",
+      "confidence": 0.9,
+      "occurrences": 1
+    },
+    {
+      "pattern": "ProgramError",
+      "severity": "ERROR",
+      "category": "Programmatic Error",
+      "description": "Indicates an error that occurred within the program itself.",
+      "source": "ai",
+      "discovered": "2026-03-06",
+      "confidence": 0.9,
+      "occurrences": 1
+    },
+    {
+      "pattern": "TypeError",
+      "severity": "ERROR",
+      "category": "Type Error",
+      "description": "Indicates a type mismatch error, which can occur when the wrong data type is used in a context where a different type is expected.",
+      "source": "ai",
+      "discovered": "2026-03-06",
+      "confidence": 0.9,
+      "occurrences": 1
+    },
+    {
+      "pattern": "Error code 502",
+      "severity": "ERROR",
+      "category": "HTTP Error",
+      "description": "Indicates a bad gateway error, which means the server received an invalid response from the upstream server.",
+      "source": "ai",
+      "discovered": "2026-03-06",
+      "confidence": 0.9,
       "occurrences": 1
     }
   ]
