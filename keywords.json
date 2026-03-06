@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated": "2026-03-06T23:04:42Z",
+  "updated": "2026-03-06T23:05:01Z",
   "keywords": [
     {
       "pattern": "thread 'main' panicked",
@@ -617,6 +617,36 @@
       "severity": "ERROR",
       "category": "HTTP Error",
       "description": "Indicates a bad gateway error, which means the server received an invalid response from the upstream server.",
+      "source": "ai",
+      "discovered": "2026-03-06",
+      "confidence": 0.9,
+      "occurrences": 1
+    },
+    {
+      "pattern": "Error: Account does not exist or has no data [hash] (x10+)",
+      "severity": "ERROR",
+      "category": "solana",
+      "description": "Indicates that the account with the specified hash is missing or empty, which could be due to incorrect initialization or data corruption.",
+      "source": "ai",
+      "discovered": "2026-03-06",
+      "confidence": 0.9,
+      "occurrences": 1
+    },
+    {
+      "pattern": "TypeError: fetch failed (x2+)",
+      "severity": "ERROR",
+      "category": "network",
+      "description": "Suggests a network issue where the fetch request failed, possibly due to connectivity or service unavailability.",
+      "source": "ai",
+      "discovered": "2026-03-06",
+      "confidence": 0.8,
+      "occurrences": 1
+    },
+    {
+      "pattern": "RedirectableRequest.handleRequestError",
+      "severity": "ERROR",
+      "category": "Network Request",
+      "description": "Indicates an error occurred during a network request, possibly due to a timeout or connection issue.",
       "source": "ai",
       "discovered": "2026-03-06",
       "confidence": 0.9,
