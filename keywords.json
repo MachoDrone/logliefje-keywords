@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-03-06T20:09:08Z",
+  "updated": "2026-03-06T20:13:29Z",
   "keywords": [
     {
       "pattern": "thread 'main' panicked",
@@ -530,6 +530,26 @@
       "source": "ai",
       "discovered": "2026-03-06",
       "confidence": 0.9,
+      "occurrences": 1
+    },
+    {
+      "pattern": "Error finishing job",
+      "severity": "ERROR",
+      "category": "Job Completion",
+      "description": "Indicates that a job failed to complete successfully.",
+      "source": "ai",
+      "discovered": "2026-03-06",
+      "confidence": 0.9,
+      "occurrences": 1
+    },
+    {
+      "pattern": "at onConnectTimeout",
+      "severity": "ERROR",
+      "category": "Connection Issues",
+      "description": "Indicates a timeout during a connection attempt, likely due to network or service unavailability.",
+      "source": "ai",
+      "discovered": "2026-03-06",
+      "confidence": 0.8,
       "occurrences": 1
     }
   ]
