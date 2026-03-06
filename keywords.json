@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated": "2026-03-06T23:02:51Z",
+  "updated": "2026-03-06T23:04:40Z",
   "keywords": [
     {
       "pattern": "thread 'main' panicked",
@@ -557,6 +557,26 @@
       "severity": "ERROR",
       "category": "Network Connectivity",
       "description": "Suggests a timeout issue when attempting to connect to a server.",
+      "source": "ai",
+      "discovered": "2026-03-06",
+      "confidence": 0.8,
+      "occurrences": 1
+    },
+    {
+      "pattern": "clarifyTimeoutError: false",
+      "severity": "ERROR",
+      "category": "network",
+      "description": "Indicates a timeout error where the timeout was not clarified, suggesting a persistent network issue.",
+      "source": "ai",
+      "discovered": "2026-03-06",
+      "confidence": 0.9,
+      "occurrences": 1
+    },
+    {
+      "pattern": "timeout: 0",
+      "severity": "ERROR",
+      "category": "Network",
+      "description": "Suggests that a network request timed out, possibly indicating network latency or server unresponsiveness.",
       "source": "ai",
       "discovered": "2026-03-06",
       "confidence": 0.8,
