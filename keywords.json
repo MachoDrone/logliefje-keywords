@@ -1,6 +1,6 @@
 {
-  "version": 1,
-  "updated": "2026-03-06T20:40:42Z",
+  "version": 2,
+  "updated": "2026-03-06T00:00:00Z",
   "keywords": [
     {
       "pattern": "thread 'main' panicked",
@@ -473,16 +473,6 @@
       "occurrences": 0
     },
     {
-      "pattern": "Error recommended market to node",
-      "severity": "ERROR",
-      "category": "nosana",
-      "description": "This error suggests that the node is unable to recommend a market, possibly due to network issues or missing market data.",
-      "source": "ai",
-      "discovered": "2026-03-06",
-      "confidence": 0.9,
-      "occurrences": 1
-    },
-    {
       "pattern": "Account does not exist or has no data",
       "severity": "ERROR",
       "category": "Blockchain",
@@ -500,16 +490,6 @@
       "source": "ai",
       "discovered": "2026-03-06",
       "confidence": 0.85,
-      "occurrences": 1
-    },
-    {
-      "pattern": "AnchorError: AnchorError caused by account: run. Error Code: AccountNotInitialized. Error Number: 3012. Error Message: The program expected this account to be already initialized.",
-      "severity": "ERROR",
-      "category": "solana|nosana",
-      "description": "Indicates that a Solana account was expected to be initialized but was not.",
-      "source": "ai",
-      "discovered": "2026-03-06",
-      "confidence": 1.0,
       "occurrences": 1
     },
     {
@@ -543,80 +523,10 @@
       "occurrences": 1
     },
     {
-      "pattern": "at onConnectTimeout",
-      "severity": "ERROR",
-      "category": "Connection Issues",
-      "description": "Indicates a timeout during a connection attempt, likely due to network or service unavailability.",
-      "source": "ai",
-      "discovered": "2026-03-06",
-      "confidence": 0.8,
-      "occurrences": 1
-    },
-    {
-      "pattern": "Error: InstructionError: [ 1, { Custom: 3012 } ]",
-      "severity": "ERROR",
-      "category": "solana",
-      "description": "Indicates a custom error from a Solana program instruction.",
-      "source": "ai",
-      "discovered": "2026-03-06",
-      "confidence": 0.9,
-      "occurrences": 1
-    },
-    {
-      "pattern": "The program expected this account to be already initialized",
-      "severity": "ERROR",
-      "category": "Blockchain Interaction",
-      "description": "Indicates a failure in blockchain interaction where a required account was not initialized.",
-      "source": "ai",
-      "discovered": "2026-03-06",
-      "confidence": 0.9,
-      "occurrences": 1
-    },
-    {
       "pattern": "UND_ERR_CONNECT_TIMEOUT",
       "severity": "ERROR",
       "category": "Network Connectivity",
       "description": "Signifies a timeout issue during network communication attempts.",
-      "source": "ai",
-      "discovered": "2026-03-06",
-      "confidence": 0.9,
-      "occurrences": 1
-    },
-    {
-      "pattern": "ProgramError",
-      "severity": "ERROR",
-      "category": "Blockchain Communication Error",
-      "description": "Error related to Solana blockchain communication, indicating a program error.",
-      "source": "ai",
-      "discovered": "2026-03-06",
-      "confidence": 0.9,
-      "occurrences": 1
-    },
-    {
-      "pattern": "InstructionError: [ 1, { Custom: 3012 } ]",
-      "severity": "ERROR",
-      "category": "Instruction Error",
-      "description": "InstructionError indicates a specific program error related to account initialization or missing data.",
-      "source": "ai",
-      "discovered": "2026-03-06",
-      "confidence": 0.9,
-      "occurrences": 1
-    },
-    {
-      "pattern": "error: { _programErrorStack: ProgramErrorStack }",
-      "severity": "ERROR",
-      "category": "General Blockchain Error",
-      "description": "General error related to Solana blockchain, indicating a program error.",
-      "source": "ai",
-      "discovered": "2026-03-06",
-      "confidence": 0.9,
-      "occurrences": 1
-    },
-    {
-      "pattern": "errorLogs: [ error: { _programErrorStack: ProgramErrorStack } ]",
-      "severity": "ERROR",
-      "category": "General Blockchain Error",
-      "description": "Error logs containing a program error related to Solana blockchain.",
       "source": "ai",
       "discovered": "2026-03-06",
       "confidence": 0.9,
