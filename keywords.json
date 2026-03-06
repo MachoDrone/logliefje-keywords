@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-03-06T20:13:29Z",
+  "updated": "2026-03-06T20:20:46Z",
   "keywords": [
     {
       "pattern": "thread 'main' panicked",
@@ -550,6 +550,36 @@
       "source": "ai",
       "discovered": "2026-03-06",
       "confidence": 0.8,
+      "occurrences": 1
+    },
+    {
+      "pattern": "Error: InstructionError: [ 1, { Custom: 3012 } ]",
+      "severity": "ERROR",
+      "category": "solana",
+      "description": "Indicates a custom error from a Solana program instruction.",
+      "source": "ai",
+      "discovered": "2026-03-06",
+      "confidence": 0.9,
+      "occurrences": 1
+    },
+    {
+      "pattern": "The program expected this account to be already initialized",
+      "severity": "ERROR",
+      "category": "Blockchain Interaction",
+      "description": "Indicates a failure in blockchain interaction where a required account was not initialized.",
+      "source": "ai",
+      "discovered": "2026-03-06",
+      "confidence": 0.9,
+      "occurrences": 1
+    },
+    {
+      "pattern": "UND_ERR_CONNECT_TIMEOUT",
+      "severity": "ERROR",
+      "category": "Network Connectivity",
+      "description": "Signifies a timeout issue during network communication attempts.",
+      "source": "ai",
+      "discovered": "2026-03-06",
+      "confidence": 0.9,
       "occurrences": 1
     }
   ]
