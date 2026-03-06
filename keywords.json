@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-03-06T19:57:35Z",
+  "updated": "2026-03-06T20:09:08Z",
   "keywords": [
     {
       "pattern": "thread 'main' panicked",
@@ -500,6 +500,36 @@
       "source": "ai",
       "discovered": "2026-03-06",
       "confidence": 0.85,
+      "occurrences": 1
+    },
+    {
+      "pattern": "AnchorError: AnchorError caused by account: run. Error Code: AccountNotInitialized. Error Number: 3012. Error Message: The program expected this account to be already initialized.",
+      "severity": "ERROR",
+      "category": "solana|nosana",
+      "description": "Indicates that a Solana account was expected to be initialized but was not.",
+      "source": "ai",
+      "discovered": "2026-03-06",
+      "confidence": 1.0,
+      "occurrences": 1
+    },
+    {
+      "pattern": "AccountNotInitialized",
+      "severity": "ERROR",
+      "category": "Blockchain",
+      "description": "Indicates that a required account was not initialized before a transaction was attempted.",
+      "source": "ai",
+      "discovered": "2026-03-06",
+      "confidence": 0.9,
+      "occurrences": 1
+    },
+    {
+      "pattern": "ConnectTimeoutError",
+      "severity": "ERROR",
+      "category": "Network",
+      "description": "Signals a timeout occurred while attempting to establish a network connection.",
+      "source": "ai",
+      "discovered": "2026-03-06",
+      "confidence": 0.9,
       "occurrences": 1
     }
   ]
