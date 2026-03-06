@@ -583,36 +583,6 @@
       "occurrences": 1
     },
     {
-      "pattern": "Error Name: FATAL",
-      "severity": "FATAL",
-      "category": "container",
-      "description": "This pattern indicates a critical failure within the container environment, potentially causing the container to crash or become unresponsive.",
-      "source": "ai",
-      "discovered": "2026-03-06",
-      "confidence": 0.9,
-      "occurrences": 1
-    },
-    {
-      "pattern": "Error Name: RestartLoop",
-      "severity": "ERROR",
-      "category": "container",
-      "description": "This pattern suggests a recurring failure that is causing the container to restart repeatedly, indicating a loop in the error handling or configuration.",
-      "source": "ai",
-      "discovered": "2026-03-06",
-      "confidence": 0.8,
-      "occurrences": 1
-    },
-    {
-      "pattern": "Error Name: ResourceExhaustion",
-      "severity": "ERROR",
-      "category": "container",
-      "description": "This pattern indicates that the container is running out of resources (CPU, memory, network) and is unable to perform its operations.",
-      "source": "ai",
-      "discovered": "2026-03-06",
-      "confidence": 0.9,
-      "occurrences": 1
-    },
-    {
       "pattern": "ProgramError",
       "severity": "ERROR",
       "category": "Blockchain Communication Error",
@@ -647,26 +617,6 @@
       "severity": "ERROR",
       "category": "General Blockchain Error",
       "description": "Error logs containing a program error related to Solana blockchain.",
-      "source": "ai",
-      "discovered": "2026-03-06",
-      "confidence": 0.9,
-      "occurrences": 1
-    },
-    {
-      "pattern": "Error Name: Error",
-      "severity": "ERROR",
-      "category": "Generic Error",
-      "description": "Indicates a generic error occurred without specifying the type.",
-      "source": "ai",
-      "discovered": "2026-03-06",
-      "confidence": 0.9,
-      "occurrences": 1
-    },
-    {
-      "pattern": "Error Name: TypeError",
-      "severity": "ERROR",
-      "category": "Type Error",
-      "description": "Indicates a type-related error occurred.",
       "source": "ai",
       "discovered": "2026-03-06",
       "confidence": 0.9,
