@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated": "2026-03-06T00:00:00Z",
+  "updated": "2026-03-06T23:02:51Z",
   "keywords": [
     {
       "pattern": "thread 'main' panicked",
@@ -530,6 +530,36 @@
       "source": "ai",
       "discovered": "2026-03-06",
       "confidence": 0.9,
+      "occurrences": 1
+    },
+    {
+      "pattern": "Error recommended market to node",
+      "severity": "ERROR",
+      "category": "network",
+      "description": "Indicates a network-related error where the system failed to recommend a market to the node.",
+      "source": "ai",
+      "discovered": "2026-03-06",
+      "confidence": 0.9,
+      "occurrences": 1
+    },
+    {
+      "pattern": "The program expected this account to be already initialized",
+      "severity": "ERROR",
+      "category": "Blockchain Interaction",
+      "description": "Indicates an issue with expected initialization of an account on the Solana blockchain.",
+      "source": "ai",
+      "discovered": "2026-03-06",
+      "confidence": 0.9,
+      "occurrences": 1
+    },
+    {
+      "pattern": "at onConnectTimeout (node:internal/deps/undici/undici:7492:28)",
+      "severity": "ERROR",
+      "category": "Network Connectivity",
+      "description": "Suggests a timeout issue when attempting to connect to a server.",
+      "source": "ai",
+      "discovered": "2026-03-06",
+      "confidence": 0.8,
       "occurrences": 1
     }
   ]
