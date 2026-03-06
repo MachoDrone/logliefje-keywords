@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-03-06T20:20:46Z",
+  "updated": "2026-03-06T20:28:32Z",
   "keywords": [
     {
       "pattern": "thread 'main' panicked",
@@ -577,6 +577,76 @@
       "severity": "ERROR",
       "category": "Network Connectivity",
       "description": "Signifies a timeout issue during network communication attempts.",
+      "source": "ai",
+      "discovered": "2026-03-06",
+      "confidence": 0.9,
+      "occurrences": 1
+    },
+    {
+      "pattern": "Error Name: FATAL",
+      "severity": "FATAL",
+      "category": "container",
+      "description": "This pattern indicates a critical failure within the container environment, potentially causing the container to crash or become unresponsive.",
+      "source": "ai",
+      "discovered": "2026-03-06",
+      "confidence": 0.9,
+      "occurrences": 1
+    },
+    {
+      "pattern": "Error Name: RestartLoop",
+      "severity": "ERROR",
+      "category": "container",
+      "description": "This pattern suggests a recurring failure that is causing the container to restart repeatedly, indicating a loop in the error handling or configuration.",
+      "source": "ai",
+      "discovered": "2026-03-06",
+      "confidence": 0.8,
+      "occurrences": 1
+    },
+    {
+      "pattern": "Error Name: ResourceExhaustion",
+      "severity": "ERROR",
+      "category": "container",
+      "description": "This pattern indicates that the container is running out of resources (CPU, memory, network) and is unable to perform its operations.",
+      "source": "ai",
+      "discovered": "2026-03-06",
+      "confidence": 0.9,
+      "occurrences": 1
+    },
+    {
+      "pattern": "ProgramError",
+      "severity": "ERROR",
+      "category": "Blockchain Communication Error",
+      "description": "Error related to Solana blockchain communication, indicating a program error.",
+      "source": "ai",
+      "discovered": "2026-03-06",
+      "confidence": 0.9,
+      "occurrences": 1
+    },
+    {
+      "pattern": "InstructionError: [ 1, { Custom: 3012 } ]",
+      "severity": "ERROR",
+      "category": "Instruction Error",
+      "description": "InstructionError indicates a specific program error related to account initialization or missing data.",
+      "source": "ai",
+      "discovered": "2026-03-06",
+      "confidence": 0.9,
+      "occurrences": 1
+    },
+    {
+      "pattern": "error: { _programErrorStack: ProgramErrorStack }",
+      "severity": "ERROR",
+      "category": "General Blockchain Error",
+      "description": "General error related to Solana blockchain, indicating a program error.",
+      "source": "ai",
+      "discovered": "2026-03-06",
+      "confidence": 0.9,
+      "occurrences": 1
+    },
+    {
+      "pattern": "errorLogs: [ error: { _programErrorStack: ProgramErrorStack } ]",
+      "severity": "ERROR",
+      "category": "General Blockchain Error",
+      "description": "Error logs containing a program error related to Solana blockchain.",
       "source": "ai",
       "discovered": "2026-03-06",
       "confidence": 0.9,
