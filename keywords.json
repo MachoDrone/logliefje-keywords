@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated": "2026-03-06T23:05:01Z",
+  "updated": "2026-03-07T12:39:41Z",
   "keywords": [
     {
       "pattern": "thread 'main' panicked",
@@ -649,6 +649,16 @@
       "description": "Indicates an error occurred during a network request, possibly due to a timeout or connection issue.",
       "source": "ai",
       "discovered": "2026-03-06",
+      "confidence": 0.9,
+      "occurrences": 1
+    },
+    {
+      "pattern": "InstructionError: [ 1, { Custom: 3012 } ]",
+      "severity": "ERROR",
+      "category": "Solana Transaction Error",
+      "description": "This pattern indicates a specific error from the Solana blockchain, likely due to a custom instruction error.",
+      "source": "ai",
+      "discovered": "2026-03-07",
       "confidence": 0.9,
       "occurrences": 1
     }
