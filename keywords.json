@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated": "2026-03-07T12:39:41Z",
+  "updated": "2026-03-07T12:43:25Z",
   "keywords": [
     {
       "pattern": "thread 'main' panicked",
@@ -660,6 +660,36 @@
       "source": "ai",
       "discovered": "2026-03-07",
       "confidence": 0.9,
+      "occurrences": 1
+    },
+    {
+      "pattern": "heartbeat timeout",
+      "severity": "ERROR",
+      "category": "network",
+      "description": "Indicates that the heartbeat mechanism failed to receive a response within the expected timeframe, suggesting potential network or service issues.",
+      "source": "ai",
+      "discovered": "2026-03-07",
+      "confidence": 0.9,
+      "occurrences": 1
+    },
+    {
+      "pattern": "connect to server error: dial tcp: lookup node.k8s.prd.nos.ci: i/o timeout",
+      "severity": "ERROR",
+      "category": "Network",
+      "description": "The node was unable to establish a connection to the server due to a timeout during the DNS lookup or TCP connection attempt, suggesting network connectivity or DNS resolution issues.",
+      "source": "ai",
+      "discovered": "2026-03-07",
+      "confidence": 0.9,
+      "occurrences": 1
+    },
+    {
+      "pattern": "at TLSSocket.socketErrorListener (node:_http_client:495:9)",
+      "severity": "ERROR",
+      "category": "Network",
+      "description": "The node encountered a TLS socket error, which could indicate issues with SSL/TLS certificates, network connectivity, or server availability.",
+      "source": "ai",
+      "discovered": "2026-03-07",
+      "confidence": 0.8,
       "occurrences": 1
     }
   ]
