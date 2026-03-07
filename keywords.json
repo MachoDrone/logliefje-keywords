@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated": "2026-03-07T13:00:53Z",
+  "updated": "2026-03-07T15:04:40Z",
   "keywords": [
     {
       "pattern": "thread 'main' panicked",
@@ -750,6 +750,26 @@
       "source": "ai",
       "discovered": "2026-03-07",
       "confidence": 0.9,
+      "occurrences": 1
+    },
+    {
+      "pattern": "aborted: false, timeoutCb: [Function: emitRequestTimeout]",
+      "severity": "ERROR",
+      "category": "Network",
+      "description": "Indicates a timeout occurred during a network request, which could be due to network issues or server unavailability.",
+      "source": "ai",
+      "discovered": "2026-03-07",
+      "confidence": 0.8,
+      "occurrences": 1
+    },
+    {
+      "pattern": "error: {",
+      "severity": "ERROR",
+      "category": "General",
+      "description": "Generic error pattern indicating an unhandled error occurred, though no specific error message is provided.",
+      "source": "ai",
+      "discovered": "2026-03-07",
+      "confidence": 0.7,
       "occurrences": 1
     }
   ]
