@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated": "2026-03-07T12:52:02Z",
+  "updated": "2026-03-07T13:00:53Z",
   "keywords": [
     {
       "pattern": "thread 'main' panicked",
@@ -727,6 +727,26 @@
       "severity": "ERROR",
       "category": "Connection Timeout",
       "description": "Indicates a timeout occurred during a connection attempt.",
+      "source": "ai",
+      "discovered": "2026-03-07",
+      "confidence": 0.9,
+      "occurrences": 1
+    },
+    {
+      "pattern": "at emitErrorCloseNT (node:internal/streams/destroy:128:3)",
+      "severity": "ERROR",
+      "category": "Stream Error",
+      "description": "Indicates an error occurred during the stream handling process.",
+      "source": "ai",
+      "discovered": "2026-03-07",
+      "confidence": 0.9,
+      "occurrences": 1
+    },
+    {
+      "pattern": "Error: The web server reported a bad gateway error.",
+      "severity": "ERROR",
+      "category": "External Service Error",
+      "description": "Signifies that the external service is not responding correctly.",
       "source": "ai",
       "discovered": "2026-03-07",
       "confidence": 0.9,
