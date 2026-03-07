@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated": "2026-03-07T12:43:25Z",
+  "updated": "2026-03-07T12:52:02Z",
   "keywords": [
     {
       "pattern": "thread 'main' panicked",
@@ -690,6 +690,46 @@
       "source": "ai",
       "discovered": "2026-03-07",
       "confidence": 0.8,
+      "occurrences": 1
+    },
+    {
+      "pattern": "errorLogs: [",
+      "severity": "ERROR",
+      "category": "parsing",
+      "description": "Indicates potential issues with log parsing or structure, which may lead to missed errors or misinterpretations.",
+      "source": "ai",
+      "discovered": "2026-03-07",
+      "confidence": 0.9,
+      "occurrences": 1
+    },
+    {
+      "pattern": "emitErrorNT",
+      "severity": "ERROR",
+      "category": "Node Error",
+      "description": "Indicates an error was emitted during the handling of a request or operation.",
+      "source": "ai",
+      "discovered": "2026-03-07",
+      "confidence": 0.9,
+      "occurrences": 1
+    },
+    {
+      "pattern": "handleRequestError",
+      "severity": "ERROR",
+      "category": "Request Handling Error",
+      "description": "Suggests an error occurred while processing a request.",
+      "source": "ai",
+      "discovered": "2026-03-07",
+      "confidence": 0.9,
+      "occurrences": 1
+    },
+    {
+      "pattern": "at onConnectTimeout",
+      "severity": "ERROR",
+      "category": "Connection Timeout",
+      "description": "Indicates a timeout occurred during a connection attempt.",
+      "source": "ai",
+      "discovered": "2026-03-07",
+      "confidence": 0.9,
       "occurrences": 1
     }
   ]
