@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated": "2026-03-07T15:04:40Z",
+  "updated": "2026-03-09T20:02:10Z",
   "keywords": [
     {
       "pattern": "thread 'main' panicked",
@@ -770,6 +770,16 @@
       "source": "ai",
       "discovered": "2026-03-07",
       "confidence": 0.7,
+      "occurrences": 1
+    },
+    {
+      "pattern": "Error Name: Error Message: Failed to finish job: Error: getaddrinfo EAI_AGAIN [domain name]",
+      "severity": "ERROR",
+      "category": "network",
+      "description": "Indicates a DNS resolution failure for a specific domain name.",
+      "source": "ai",
+      "discovered": "2026-03-09",
+      "confidence": 1.0,
       "occurrences": 1
     }
   ]
