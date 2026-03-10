@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated": "2026-03-10T01:06:15Z",
+  "updated": "2026-03-10T04:04:09Z",
   "keywords": [
     {
       "pattern": "thread 'main' panicked",
@@ -807,6 +807,16 @@
       "severity": "ERROR",
       "category": "Network",
       "description": "The node is unable to resolve a domain name, leading to a failure in finishing the job.",
+      "source": "ai",
+      "discovered": "2026-03-10",
+      "confidence": 0.9,
+      "occurrences": 1
+    },
+    {
+      "pattern": "Error Name: TypeError (Message: fetch failed) at onConnectTimeout",
+      "severity": "ERROR",
+      "category": "network|parsing",
+      "description": "This pattern indicates a TypeError during a fetch operation that times out, suggesting a network or parsing issue.",
       "source": "ai",
       "discovered": "2026-03-10",
       "confidence": 0.9,
