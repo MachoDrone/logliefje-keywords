@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated": "2026-03-10T01:04:32Z",
+  "updated": "2026-03-10T01:06:15Z",
   "keywords": [
     {
       "pattern": "thread 'main' panicked",
@@ -797,6 +797,16 @@
       "severity": "ERROR",
       "category": "network",
       "description": "The node failed to resolve the domain name within the timeout period, suggesting a network or DNS resolution issue.",
+      "source": "ai",
+      "discovered": "2026-03-10",
+      "confidence": 0.9,
+      "occurrences": 1
+    },
+    {
+      "pattern": "Failed to finish job: Error: getaddrinfo EAI_AGAIN [domain name]",
+      "severity": "ERROR",
+      "category": "Network",
+      "description": "The node is unable to resolve a domain name, leading to a failure in finishing the job.",
       "source": "ai",
       "discovered": "2026-03-10",
       "confidence": 0.9,
