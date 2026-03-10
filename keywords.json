@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated": "2026-03-09T20:02:10Z",
+  "updated": "2026-03-10T01:04:32Z",
   "keywords": [
     {
       "pattern": "thread 'main' panicked",
@@ -780,6 +780,26 @@
       "source": "ai",
       "discovered": "2026-03-09",
       "confidence": 1.0,
+      "occurrences": 1
+    },
+    {
+      "pattern": "EAI_AGAIN",
+      "severity": "ERROR",
+      "category": "network",
+      "description": "The system cannot resolve the hostname or address, indicating a network issue.",
+      "source": "ai",
+      "discovered": "2026-03-10",
+      "confidence": 0.9,
+      "occurrences": 1
+    },
+    {
+      "pattern": "lookup node.k8s.prd.nos.ci: i/o timeout",
+      "severity": "ERROR",
+      "category": "network",
+      "description": "The node failed to resolve the domain name within the timeout period, suggesting a network or DNS resolution issue.",
+      "source": "ai",
+      "discovered": "2026-03-10",
+      "confidence": 0.9,
       "occurrences": 1
     }
   ]
