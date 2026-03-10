@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated": "2026-03-10T07:37:30Z",
+  "updated": "2026-03-10T12:00:38Z",
   "keywords": [
     {
       "pattern": "thread 'main' panicked",
@@ -830,6 +830,16 @@
       "source": "ai",
       "discovered": "2026-03-10",
       "confidence": 0.8,
+      "occurrences": 1
+    },
+    {
+      "pattern": "aborted: false, timeoutCb: [Function: emitRequestTimeout], [Symbol(errored)]: null",
+      "severity": "ERROR",
+      "category": "container",
+      "description": "This pattern indicates a timeout issue in container operations where no actual error is thrown.",
+      "source": "ai",
+      "discovered": "2026-03-10",
+      "confidence": 0.9,
       "occurrences": 1
     }
   ]
