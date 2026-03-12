@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated": "2026-03-12T10:29:54Z",
+  "updated": "2026-03-12T12:30:30Z",
   "keywords": [
     {
       "pattern": "thread 'main' panicked",
@@ -907,6 +907,26 @@
       "severity": "ERROR",
       "category": "nosana",
       "description": "This pattern indicates a critical error at a specific timestamp.",
+      "source": "ai",
+      "discovered": "2026-03-12",
+      "confidence": 0.9,
+      "occurrences": 1
+    },
+    {
+      "pattern": "Error Name: TypeError (x1)",
+      "severity": "ERROR",
+      "category": "parsing",
+      "description": "This error indicates a parsing issue with the data being fetched, which could be due to malformed data or a problem with the data source.",
+      "source": "ai",
+      "discovered": "2026-03-12",
+      "confidence": 0.9,
+      "occurrences": 1
+    },
+    {
+      "pattern": "Failed to finish job: Error: getaddrinfo EAI_AGAIN",
+      "severity": "ERROR",
+      "category": "Network",
+      "description": "The node is unable to resolve the domain name of the job server, preventing the job from completing.",
       "source": "ai",
       "discovered": "2026-03-12",
       "confidence": 0.9,
