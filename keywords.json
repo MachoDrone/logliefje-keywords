@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated": "2026-03-12T09:07:47Z",
+  "updated": "2026-03-12T09:10:17Z",
   "keywords": [
     {
       "pattern": "thread 'main' panicked",
@@ -870,6 +870,36 @@
       "source": "ai",
       "discovered": "2026-03-12",
       "confidence": 0.8,
+      "occurrences": 1
+    },
+    {
+      "pattern": "loginFailExit = false",
+      "severity": "INFO",
+      "category": "container",
+      "description": "Indicates that the login attempt failed but the process did not exit, suggesting a possible retry mechanism or resilience in the login process.",
+      "source": "ai",
+      "discovered": "2026-03-12",
+      "confidence": 0.9,
+      "occurrences": 1
+    },
+    {
+      "pattern": "transport.dialServerTimeout = 5",
+      "severity": "INFO",
+      "category": "network",
+      "description": "Sets the timeout for dialing the server to 5 seconds, which is a configuration setting and not an error.",
+      "source": "ai",
+      "discovered": "2026-03-12",
+      "confidence": 0.9,
+      "occurrences": 1
+    },
+    {
+      "pattern": "transport.heartbeatTimeout = 30",
+      "severity": "INFO",
+      "category": "network",
+      "description": "Sets the heartbeat timeout to 30 seconds, indicating the expected interval for heartbeat messages.",
+      "source": "ai",
+      "discovered": "2026-03-12",
+      "confidence": 0.9,
       "occurrences": 1
     }
   ]
