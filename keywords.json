@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated": "2026-03-12T09:10:17Z",
+  "updated": "2026-03-12T10:29:54Z",
   "keywords": [
     {
       "pattern": "thread 'main' panicked",
@@ -897,6 +897,16 @@
       "severity": "INFO",
       "category": "network",
       "description": "Sets the heartbeat timeout to 30 seconds, indicating the expected interval for heartbeat messages.",
+      "source": "ai",
+      "discovered": "2026-03-12",
+      "confidence": 0.9,
+      "occurrences": 1
+    },
+    {
+      "pattern": "2026-03-12T09:06:07 ========== ERROR ==========",
+      "severity": "ERROR",
+      "category": "nosana",
+      "description": "This pattern indicates a critical error at a specific timestamp.",
       "source": "ai",
       "discovered": "2026-03-12",
       "confidence": 0.9,
