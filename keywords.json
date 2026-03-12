@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated": "2026-03-12T07:06:43Z",
+  "updated": "2026-03-12T09:07:47Z",
   "keywords": [
     {
       "pattern": "thread 'main' panicked",
@@ -850,6 +850,26 @@
       "source": "ai",
       "discovered": "2026-03-12",
       "confidence": 0.9,
+      "occurrences": 1
+    },
+    {
+      "pattern": "Failed to connect to job server: Connection refused",
+      "severity": "ERROR",
+      "category": "network",
+      "description": "The node is unable to establish a connection to the job server, which could be due to the server being down or the network being unreachable.",
+      "source": "ai",
+      "discovered": "2026-03-12",
+      "confidence": 0.9,
+      "occurrences": 1
+    },
+    {
+      "pattern": "GPU usage exceeds 95%",
+      "severity": "WARN",
+      "category": "gpu",
+      "description": "The GPU is operating at a high load, which could lead to performance degradation and potential overheating.",
+      "source": "ai",
+      "discovered": "2026-03-12",
+      "confidence": 0.8,
       "occurrences": 1
     }
   ]
