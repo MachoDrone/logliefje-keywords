@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated": "2026-03-10T12:00:38Z",
+  "updated": "2026-03-12T07:06:43Z",
   "keywords": [
     {
       "pattern": "thread 'main' panicked",
@@ -839,6 +839,16 @@
       "description": "This pattern indicates a timeout issue in container operations where no actual error is thrown.",
       "source": "ai",
       "discovered": "2026-03-10",
+      "confidence": 0.9,
+      "occurrences": 1
+    },
+    {
+      "pattern": "ETIMEOUT nosana.mypinata.cloud",
+      "severity": "ERROR",
+      "category": "network",
+      "description": "Indicates a timeout error when attempting to connect to nosana.mypinata.cloud, suggesting network latency or resource issues.",
+      "source": "ai",
+      "discovered": "2026-03-12",
       "confidence": 0.9,
       "occurrences": 1
     }
