@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated": "2026-03-12T12:30:30Z",
+  "updated": "2026-03-13T09:23:48Z",
   "keywords": [
     {
       "pattern": "thread 'main' panicked",
@@ -929,6 +929,16 @@
       "description": "The node is unable to resolve the domain name of the job server, preventing the job from completing.",
       "source": "ai",
       "discovered": "2026-03-12",
+      "confidence": 0.9,
+      "occurrences": 1
+    },
+    {
+      "pattern": "Failed to connect to Solana node: Connection refused",
+      "severity": "ERROR",
+      "category": "solana",
+      "description": "The node is unable to connect to the Solana network, which could be due to network issues or the Solana node being down.",
+      "source": "ai",
+      "discovered": "2026-03-13",
       "confidence": 0.9,
       "occurrences": 1
     }
