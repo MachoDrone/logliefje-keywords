@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated": "2026-03-13T10:57:09Z",
+  "updated": "2026-03-13T12:51:08Z",
   "keywords": [
     {
       "pattern": "thread 'main' panicked",
@@ -947,6 +947,16 @@
       "severity": "ERROR",
       "category": "nosana",
       "description": "Indicates an issue with updating the job queue status.",
+      "source": "ai",
+      "discovered": "2026-03-13",
+      "confidence": 0.9,
+      "occurrences": 1
+    },
+    {
+      "pattern": "Error recommended market to node (x1)",
+      "severity": "ERROR",
+      "category": "nosana",
+      "description": "This error suggests a failure in recommending a market to the node, which could be due to misconfiguration or network issues.",
       "source": "ai",
       "discovered": "2026-03-13",
       "confidence": 0.9,
