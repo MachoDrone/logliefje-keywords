@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated": "2026-03-13T09:23:48Z",
+  "updated": "2026-03-13T10:57:09Z",
   "keywords": [
     {
       "pattern": "thread 'main' panicked",
@@ -937,6 +937,16 @@
       "severity": "ERROR",
       "category": "solana",
       "description": "The node is unable to connect to the Solana network, which could be due to network issues or the Solana node being down.",
+      "source": "ai",
+      "discovered": "2026-03-13",
+      "confidence": 0.9,
+      "occurrences": 1
+    },
+    {
+      "pattern": "Could not update queue status",
+      "severity": "ERROR",
+      "category": "nosana",
+      "description": "Indicates an issue with updating the job queue status.",
       "source": "ai",
       "discovered": "2026-03-13",
       "confidence": 0.9,
