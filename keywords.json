@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated": "2026-03-13T13:07:48Z",
+  "updated": "2026-03-13T13:11:55Z",
   "keywords": [
     {
       "pattern": "thread 'main' panicked",
@@ -997,6 +997,16 @@
       "severity": "ERROR",
       "category": "resource",
       "description": "The node is unable to start containers due to insufficient memory resources.",
+      "source": "ai",
+      "discovered": "2026-03-13",
+      "confidence": 0.9,
+      "occurrences": 1
+    },
+    {
+      "pattern": "========== ERROR ==========",
+      "severity": "ERROR",
+      "category": "container",
+      "description": "This pattern indicates a critical error in the container logs.",
       "source": "ai",
       "discovered": "2026-03-13",
       "confidence": 0.9,
