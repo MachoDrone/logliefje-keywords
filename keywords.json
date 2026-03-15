@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated": "2026-03-15T05:16:07Z",
+  "updated": "2026-03-15T10:02:36Z",
   "keywords": [
     {
       "pattern": "thread 'main' panicked",
@@ -1070,6 +1070,16 @@
       "source": "ai",
       "discovered": "2026-03-15",
       "confidence": 0.8,
+      "occurrences": 1
+    },
+    {
+      "pattern": "TransactionExpiredTimeoutError",
+      "severity": "ERROR",
+      "category": "Job Execution",
+      "description": "The transaction was not confirmed within the expected time frame, indicating potential issues with Solana network or job submission.",
+      "source": "ai",
+      "discovered": "2026-03-15",
+      "confidence": 0.9,
       "occurrences": 1
     }
   ]
