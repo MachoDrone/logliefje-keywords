@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated": "2026-03-15T10:02:36Z",
+  "updated": "2026-03-15T10:21:27Z",
   "keywords": [
     {
       "pattern": "thread 'main' panicked",
@@ -1077,6 +1077,16 @@
       "severity": "ERROR",
       "category": "Job Execution",
       "description": "The transaction was not confirmed within the expected time frame, indicating potential issues with Solana network or job submission.",
+      "source": "ai",
+      "discovered": "2026-03-15",
+      "confidence": 0.9,
+      "occurrences": 1
+    },
+    {
+      "pattern": "ProgramErrorStack { errorCode: 'AccountNotInitialized', errorMessage: 'The program expected this account to be already initialized' }",
+      "severity": "ERROR",
+      "category": "solana",
+      "description": "Indicates that a required account was not properly initialized, causing the transaction to fail.",
       "source": "ai",
       "discovered": "2026-03-15",
       "confidence": 0.9,
