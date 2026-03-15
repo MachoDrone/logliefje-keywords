@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated": "2026-03-15T04:56:32Z",
+  "updated": "2026-03-15T05:16:07Z",
   "keywords": [
     {
       "pattern": "thread 'main' panicked",
@@ -1027,6 +1027,46 @@
       "severity": "ERROR",
       "category": "Network Issues",
       "description": "Indicates that a request timed out, which could be due to network latency or server unavailability.",
+      "source": "ai",
+      "discovered": "2026-03-15",
+      "confidence": 0.8,
+      "occurrences": 1
+    },
+    {
+      "pattern": "at async Timeout._onTimeout (file:///usr/local/lib/node_modules/@nosana/node/dist/src/NodeManager/node/market/marketHandler.js:113:42) {",
+      "severity": "ERROR",
+      "category": "process|stability",
+      "description": "Indicates an asynchronous timeout error in the NodeManager market handler, possibly due to a long-running task or resource contention.",
+      "source": "ai",
+      "discovered": "2026-03-15",
+      "confidence": 0.9,
+      "occurrences": 1
+    },
+    {
+      "pattern": "ws error: (x1)",
+      "severity": "ERROR",
+      "category": "network|gpu",
+      "description": "WebSocket error encountered, which could indicate network instability or service unavailability.",
+      "source": "ai",
+      "discovered": "2026-03-15",
+      "confidence": 0.8,
+      "occurrences": 1
+    },
+    {
+      "pattern": "at async Timeout._onTimeout",
+      "severity": "ERROR",
+      "category": "Execution",
+      "description": "Indicates a timeout error in an asynchronous operation.",
+      "source": "ai",
+      "discovered": "2026-03-15",
+      "confidence": 0.9,
+      "occurrences": 1
+    },
+    {
+      "pattern": "ws error:",
+      "severity": "WARN",
+      "category": "Communication",
+      "description": "Signifies a WebSocket communication issue, which could be a warning or an error depending on context.",
       "source": "ai",
       "discovered": "2026-03-15",
       "confidence": 0.8,
