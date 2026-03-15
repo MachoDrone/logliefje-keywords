@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated": "2026-03-13T13:11:55Z",
+  "updated": "2026-03-15T04:56:32Z",
   "keywords": [
     {
       "pattern": "thread 'main' panicked",
@@ -1010,6 +1010,26 @@
       "source": "ai",
       "discovered": "2026-03-13",
       "confidence": 0.9,
+      "occurrences": 1
+    },
+    {
+      "pattern": "Error finishing job [A-Za-z0-9]+",
+      "severity": "ERROR",
+      "category": "nosana|container",
+      "description": "Indicates a failure to complete a specific job, which may require further investigation.",
+      "source": "ai",
+      "discovered": "2026-03-15",
+      "confidence": 1.0,
+      "occurrences": 1
+    },
+    {
+      "pattern": "timeoutCb: [Function: emitRequestTimeout]",
+      "severity": "ERROR",
+      "category": "Network Issues",
+      "description": "Indicates that a request timed out, which could be due to network latency or server unavailability.",
+      "source": "ai",
+      "discovered": "2026-03-15",
+      "confidence": 0.8,
       "occurrences": 1
     }
   ]
