@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated": "2026-03-18T14:39:03Z",
+  "updated": "2026-03-18T15:06:02Z",
   "keywords": [
     {
       "pattern": "thread 'main' panicked",
@@ -1180,6 +1180,16 @@
       "source": "ai",
       "discovered": "2026-03-18",
       "confidence": 1.0,
+      "occurrences": 1
+    },
+    {
+      "pattern": "ConnectTimeoutError: Connect Timeout Error (x1)",
+      "severity": "ERROR",
+      "category": "network|nosana",
+      "description": "Indicates a timeout error during network communication.",
+      "source": "ai",
+      "discovered": "2026-03-18",
+      "confidence": 0.9,
       "occurrences": 1
     }
   ]
