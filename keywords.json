@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated": "2026-03-18T13:49:04Z",
+  "updated": "2026-03-18T14:10:56Z",
   "keywords": [
     {
       "pattern": "thread 'main' panicked",
@@ -1110,6 +1110,56 @@
       "source": "ai",
       "discovered": "2026-03-18",
       "confidence": 0.9,
+      "occurrences": 1
+    },
+    {
+      "pattern": "Failed to finish job: Error: queryA ESERVFAIL nosana.mypinata.cloud",
+      "severity": "ERROR",
+      "category": "network",
+      "description": "Indicates a DNS resolution failure for nosana.mypinata.cloud, which could be due to network issues or the service being down.",
+      "source": "ai",
+      "discovered": "2026-03-18",
+      "confidence": 0.9,
+      "occurrences": 1
+    },
+    {
+      "pattern": "AxiosError: queryAaaa ESERVFAIL nosana.mypinata.cloud",
+      "severity": "ERROR",
+      "category": "network",
+      "description": "Indicates a DNS resolution failure for nosana.mypinata.cloud, which could be due to network issues or the service being down.",
+      "source": "ai",
+      "discovered": "2026-03-18",
+      "confidence": 0.9,
+      "occurrences": 1
+    },
+    {
+      "pattern": "queryAaaa ESERVFAIL",
+      "severity": "ERROR",
+      "category": "network",
+      "description": "DNS query failed with SERVFAIL, indicating a network or DNS resolution issue.",
+      "source": "ai",
+      "discovered": "2026-03-18",
+      "confidence": 0.9,
+      "occurrences": 1
+    },
+    {
+      "pattern": "queryA ESERVFAIL",
+      "severity": "ERROR",
+      "category": "network",
+      "description": "DNS query failed with SERVFAIL, indicating a network or DNS resolution issue.",
+      "source": "ai",
+      "discovered": "2026-03-18",
+      "confidence": 0.9,
+      "occurrences": 1
+    },
+    {
+      "pattern": "ETIMEOUT",
+      "severity": "ERROR",
+      "category": "network",
+      "description": "A timeout occurred during a network request, suggesting a network connectivity or service issue.",
+      "source": "ai",
+      "discovered": "2026-03-18",
+      "confidence": 0.8,
       "occurrences": 1
     }
   ]
