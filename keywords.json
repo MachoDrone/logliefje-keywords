@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated": "2026-03-18T17:20:02Z",
+  "updated": "2026-03-18T23:05:16Z",
   "keywords": [
     {
       "pattern": "thread 'main' panicked",
@@ -1217,6 +1217,16 @@
       "severity": "ERROR",
       "category": "network",
       "description": "Indicates an issue with the fetch request being made.",
+      "source": "ai",
+      "discovered": "2026-03-18",
+      "confidence": 0.9,
+      "occurrences": 1
+    },
+    {
+      "pattern": "aborted: false, [Symbol(errored)]: null",
+      "severity": "INFO",
+      "category": "container|nosana",
+      "description": "Indicates that the container operation was not aborted and did not encounter an error.",
       "source": "ai",
       "discovered": "2026-03-18",
       "confidence": 0.9,
