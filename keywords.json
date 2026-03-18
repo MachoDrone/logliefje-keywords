@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated": "2026-03-18T16:29:09Z",
+  "updated": "2026-03-18T17:20:02Z",
   "keywords": [
     {
       "pattern": "thread 'main' panicked",
@@ -1197,6 +1197,26 @@
       "severity": "ERROR",
       "category": "solana",
       "description": "Indicates a timeout error during a Solana job query.",
+      "source": "ai",
+      "discovered": "2026-03-18",
+      "confidence": 0.9,
+      "occurrences": 1
+    },
+    {
+      "pattern": "Error finishing job [job_id] (x1)",
+      "severity": "ERROR",
+      "category": "nosana",
+      "description": "Indicates a failure in completing a job on the node.",
+      "source": "ai",
+      "discovered": "2026-03-18",
+      "confidence": 0.9,
+      "occurrences": 1
+    },
+    {
+      "pattern": "TypeError: fetch failed (x1)",
+      "severity": "ERROR",
+      "category": "network",
+      "description": "Indicates an issue with the fetch request being made.",
       "source": "ai",
       "discovered": "2026-03-18",
       "confidence": 0.9,
