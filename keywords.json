@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated": "2026-03-15T10:21:27Z",
+  "updated": "2026-03-18T13:44:07Z",
   "keywords": [
     {
       "pattern": "thread 'main' panicked",
@@ -1089,6 +1089,16 @@
       "description": "Indicates that a required account was not properly initialized, causing the transaction to fail.",
       "source": "ai",
       "discovered": "2026-03-15",
+      "confidence": 0.9,
+      "occurrences": 1
+    },
+    {
+      "pattern": "TypeError: fetch failed",
+      "severity": "ERROR",
+      "category": "network",
+      "description": "Indicates a failure in a fetch request, which could be due to network issues or server unavailability.",
+      "source": "ai",
+      "discovered": "2026-03-18",
       "confidence": 0.9,
       "occurrences": 1
     }
