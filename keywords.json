@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated": "2026-03-18T15:06:02Z",
+  "updated": "2026-03-18T16:29:09Z",
   "keywords": [
     {
       "pattern": "thread 'main' panicked",
@@ -1187,6 +1187,16 @@
       "severity": "ERROR",
       "category": "network|nosana",
       "description": "Indicates a timeout error during network communication.",
+      "source": "ai",
+      "discovered": "2026-03-18",
+      "confidence": 0.9,
+      "occurrences": 1
+    },
+    {
+      "pattern": "Error Name: Error Message: Failed to finish job: Error: queryAaaa ETIMEOUT [hostname]",
+      "severity": "ERROR",
+      "category": "solana",
+      "description": "Indicates a timeout error during a Solana job query.",
       "source": "ai",
       "discovered": "2026-03-18",
       "confidence": 0.9,
