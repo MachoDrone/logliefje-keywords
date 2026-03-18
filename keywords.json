@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated": "2026-03-18T14:10:56Z",
+  "updated": "2026-03-18T14:17:32Z",
   "keywords": [
     {
       "pattern": "thread 'main' panicked",
@@ -1160,6 +1160,16 @@
       "source": "ai",
       "discovered": "2026-03-18",
       "confidence": 0.8,
+      "occurrences": 1
+    },
+    {
+      "pattern": "Message: Couldn't find '/root/.ollama/id_ed25519'. Generating new private key.",
+      "severity": "INFO",
+      "category": "container",
+      "description": "Indicates a new private key is being generated, which is a normal operation.",
+      "source": "ai",
+      "discovered": "2026-03-18",
+      "confidence": 0.9,
       "occurrences": 1
     }
   ]
