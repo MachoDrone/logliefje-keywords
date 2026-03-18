@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated": "2026-03-18T13:44:07Z",
+  "updated": "2026-03-18T13:49:04Z",
   "keywords": [
     {
       "pattern": "thread 'main' panicked",
@@ -1097,6 +1097,16 @@
       "severity": "ERROR",
       "category": "network",
       "description": "Indicates a failure in a fetch request, which could be due to network issues or server unavailability.",
+      "source": "ai",
+      "discovered": "2026-03-18",
+      "confidence": 0.9,
+      "occurrences": 1
+    },
+    {
+      "pattern": "Message: Failed to finish job: [object Object]",
+      "severity": "ERROR",
+      "category": "solana",
+      "description": "This pattern indicates a failure in a job that was not properly handled, possibly due to unhandled data or errors.",
       "source": "ai",
       "discovered": "2026-03-18",
       "confidence": 0.9,
