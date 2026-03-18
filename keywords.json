@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated": "2026-03-18T14:17:32Z",
+  "updated": "2026-03-18T14:39:03Z",
   "keywords": [
     {
       "pattern": "thread 'main' panicked",
@@ -1170,6 +1170,16 @@
       "source": "ai",
       "discovered": "2026-03-18",
       "confidence": 0.9,
+      "occurrences": 1
+    },
+    {
+      "pattern": "Error: queryAaaa ETIMEOUT nosana.mypinata.cloud",
+      "severity": "ERROR",
+      "category": "network|nosana",
+      "description": "This pattern indicates a network timeout error when attempting to connect to nosana.mypinata.cloud.",
+      "source": "ai",
+      "discovered": "2026-03-18",
+      "confidence": 1.0,
       "occurrences": 1
     }
   ]
