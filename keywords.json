@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated": "2026-03-18T23:05:16Z",
+  "updated": "2026-03-25T09:24:40Z",
   "keywords": [
     {
       "pattern": "thread 'main' panicked",
@@ -1230,6 +1230,16 @@
       "source": "ai",
       "discovered": "2026-03-18",
       "confidence": 0.9,
+      "occurrences": 1
+    },
+    {
+      "pattern": "connect to local service",
+      "severity": "ERROR",
+      "category": "frpc",
+      "description": "Repeated attempts to connect to a local service are failing, indicating a potential issue with the service or network configuration.",
+      "source": "ai",
+      "discovered": "2026-03-25",
+      "confidence": 1.0,
       "occurrences": 1
     }
   ]
