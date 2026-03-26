@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated": "2026-03-25T09:24:40Z",
+  "updated": "2026-03-26T12:23:13Z",
   "keywords": [
     {
       "pattern": "thread 'main' panicked",
@@ -1240,6 +1240,16 @@
       "source": "ai",
       "discovered": "2026-03-25",
       "confidence": 1.0,
+      "occurrences": 1
+    },
+    {
+      "pattern": "queryAaaa ETIMEOUT nosana.mypinata.cloud",
+      "severity": "ERROR",
+      "category": "network",
+      "description": "Indicates a network timeout error when trying to connect to a specific host.",
+      "source": "ai",
+      "discovered": "2026-03-26",
+      "confidence": 0.9,
       "occurrences": 1
     }
   ]
