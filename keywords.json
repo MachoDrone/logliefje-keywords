@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated": "2026-03-27T01:13:57Z",
+  "updated": "2026-03-27T01:25:44Z",
   "keywords": [
     {
       "pattern": "thread 'main' panicked",
@@ -1307,6 +1307,16 @@
       "severity": "ERROR",
       "category": "frpc",
       "description": "Indicates an issue with the frpc proxy configuration or network connectivity.",
+      "source": "ai",
+      "discovered": "2026-03-27",
+      "confidence": 0.9,
+      "occurrences": 1
+    },
+    {
+      "pattern": "start error: proxy [API-DMi",
+      "severity": "ERROR",
+      "category": "frpc",
+      "description": "Indicates a failure in starting a proxy service, possibly due to misconfiguration or issues with the API.",
       "source": "ai",
       "discovered": "2026-03-27",
       "confidence": 0.9,
