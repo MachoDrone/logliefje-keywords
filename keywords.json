@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated": "2026-03-27T01:25:44Z",
+  "updated": "2026-03-27T15:48:57Z",
   "keywords": [
     {
       "pattern": "thread 'main' panicked",
@@ -1317,6 +1317,16 @@
       "severity": "ERROR",
       "category": "frpc",
       "description": "Indicates a failure in starting a proxy service, possibly due to misconfiguration or issues with the API.",
+      "source": "ai",
+      "discovered": "2026-03-27",
+      "confidence": 0.9,
+      "occurrences": 1
+    },
+    {
+      "pattern": "aborted: true, [Symbol(errored)]: true",
+      "severity": "FATAL",
+      "category": "container",
+      "description": "Indicates a container was forcibly terminated due to an error.",
       "source": "ai",
       "discovered": "2026-03-27",
       "confidence": 0.9,
