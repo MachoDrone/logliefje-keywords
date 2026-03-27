@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated": "2026-03-26T16:54:31Z",
+  "updated": "2026-03-27T01:02:48Z",
   "keywords": [
     {
       "pattern": "thread 'main' panicked",
@@ -1279,6 +1279,26 @@
       "description": "There might be insufficient GPU resources available to run the requested job.",
       "source": "ai",
       "discovered": "2026-03-26",
+      "confidence": 0.85,
+      "occurrences": 1
+    },
+    {
+      "pattern": "Failed to connect to Solana cluster: Connection refused",
+      "severity": "ERROR",
+      "category": "solana",
+      "description": "The node is unable to establish a connection with the Solana blockchain network.",
+      "source": "ai",
+      "discovered": "2026-03-27",
+      "confidence": 0.9,
+      "occurrences": 1
+    },
+    {
+      "pattern": "GPU container exited with code 137",
+      "severity": "ERROR",
+      "category": "gpu",
+      "description": "The GPU container has been terminated due to resource constraints or an unexpected issue.",
+      "source": "ai",
+      "discovered": "2026-03-27",
       "confidence": 0.85,
       "occurrences": 1
     }
