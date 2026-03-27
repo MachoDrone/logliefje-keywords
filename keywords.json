@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated": "2026-03-27T01:02:48Z",
+  "updated": "2026-03-27T01:13:57Z",
   "keywords": [
     {
       "pattern": "thread 'main' panicked",
@@ -1300,6 +1300,16 @@
       "source": "ai",
       "discovered": "2026-03-27",
       "confidence": 0.85,
+      "occurrences": 1
+    },
+    {
+      "pattern": "start error: proxy [API-Bds",
+      "severity": "ERROR",
+      "category": "frpc",
+      "description": "Indicates an issue with the frpc proxy configuration or network connectivity.",
+      "source": "ai",
+      "discovered": "2026-03-27",
+      "confidence": 0.9,
       "occurrences": 1
     }
   ]
