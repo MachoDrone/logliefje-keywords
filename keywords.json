@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated": "2026-03-29T18:56:54Z",
+  "updated": "2026-03-31T20:41:03Z",
   "keywords": [
     {
       "pattern": "thread 'main' panicked",
@@ -1339,6 +1339,16 @@
       "description": "Indicates a job failure that needs investigation.",
       "source": "ai",
       "discovered": "2026-03-29",
+      "confidence": 0.9,
+      "occurrences": 1
+    },
+    {
+      "pattern": "Could not update queue status TypeError: fetch failed",
+      "severity": "ERROR",
+      "category": "network",
+      "description": "Failed to update the queue status due to network issues, indicating persistent connectivity problems.",
+      "source": "ai",
+      "discovered": "2026-03-31",
       "confidence": 0.9,
       "occurrences": 1
     }
