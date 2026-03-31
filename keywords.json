@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated": "2026-03-31T20:41:03Z",
+  "updated": "2026-03-31T20:46:54Z",
   "keywords": [
     {
       "pattern": "thread 'main' panicked",
@@ -1347,6 +1347,16 @@
       "severity": "ERROR",
       "category": "network",
       "description": "Failed to update the queue status due to network issues, indicating persistent connectivity problems.",
+      "source": "ai",
+      "discovered": "2026-03-31",
+      "confidence": 0.9,
+      "occurrences": 1
+    },
+    {
+      "pattern": "Ping failed: TypeError: fetch failed",
+      "severity": "ERROR",
+      "category": "network",
+      "description": "Indicates a network connectivity issue where the system is unable to reach a target via a ping request.",
       "source": "ai",
       "discovered": "2026-03-31",
       "confidence": 0.9,
