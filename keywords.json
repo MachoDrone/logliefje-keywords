@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated": "2026-03-31T20:46:54Z",
+  "updated": "2026-04-01T07:47:29Z",
   "keywords": [
     {
       "pattern": "thread 'main' panicked",
@@ -1360,6 +1360,26 @@
       "source": "ai",
       "discovered": "2026-03-31",
       "confidence": 0.9,
+      "occurrences": 1
+    },
+    {
+      "pattern": "Failed to start frpc-.*: exit status 1",
+      "severity": "ERROR",
+      "category": "frpc",
+      "description": "The reverse proxy tunnel for job connectivity is failing to start, which can disrupt the node's ability to communicate with external services.",
+      "source": "ai",
+      "discovered": "2026-04-01",
+      "confidence": 0.8,
+      "occurrences": 1
+    },
+    {
+      "pattern": "GPU container exited with code: [0-9]+",
+      "severity": "ERROR",
+      "category": "gpu",
+      "description": "A GPU workload container has terminated unexpectedly, which could indicate issues with the job itself or resource constraints.",
+      "source": "ai",
+      "discovered": "2026-04-01",
+      "confidence": 0.8,
       "occurrences": 1
     }
   ]
