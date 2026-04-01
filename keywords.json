@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated": "2026-04-01T07:47:29Z",
+  "updated": "2026-04-01T16:28:14Z",
   "keywords": [
     {
       "pattern": "thread 'main' panicked",
@@ -1380,6 +1380,16 @@
       "source": "ai",
       "discovered": "2026-04-01",
       "confidence": 0.8,
+      "occurrences": 1
+    },
+    {
+      "pattern": "Error Name: TypeError Message: fetch failed",
+      "severity": "ERROR",
+      "category": "nosana",
+      "description": "This error indicates a failure in fetching data, which could be related to network or service unavailability.",
+      "source": "ai",
+      "discovered": "2026-04-01",
+      "confidence": 0.9,
       "occurrences": 1
     }
   ]
