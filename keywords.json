@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated": "2026-04-01T16:28:14Z",
+  "updated": "2026-04-02T08:00:21Z",
   "keywords": [
     {
       "pattern": "thread 'main' panicked",
@@ -1390,6 +1390,26 @@
       "source": "ai",
       "discovered": "2026-04-01",
       "confidence": 0.9,
+      "occurrences": 1
+    },
+    {
+      "pattern": "Failed to parse job assignment: Invalid JSON payload",
+      "severity": "ERROR",
+      "category": "parsing",
+      "description": "The node is unable to interpret the job assignment data from the Solana blockchain, suggesting a potential issue with the data format.",
+      "source": "ai",
+      "discovered": "2026-04-02",
+      "confidence": 0.85,
+      "occurrences": 1
+    },
+    {
+      "pattern": "GPU usage exceeds configured limit: [value]",
+      "severity": "WARN",
+      "category": "resource",
+      "description": "The GPU resource utilization is higher than the set threshold, which could lead to performance degradation or instability.",
+      "source": "ai",
+      "discovered": "2026-04-02",
+      "confidence": 0.8,
       "occurrences": 1
     }
   ]
