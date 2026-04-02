@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated": "2026-04-02T23:24:25Z",
+  "updated": "2026-04-02T23:24:52Z",
   "keywords": [
     {
       "pattern": "thread 'main' panicked",
@@ -1470,6 +1470,26 @@
       "source": "ai",
       "discovered": "2026-04-02",
       "confidence": 0.8,
+      "occurrences": 1
+    },
+    {
+      "pattern": "Failed to parse Solana transaction: Invalid transaction data",
+      "severity": "ERROR",
+      "category": "parsing",
+      "description": "The node is unable to process a Solana transaction due to invalid data, which could be caused by corrupted or malformed transactions.",
+      "source": "ai",
+      "discovered": "2026-04-02",
+      "confidence": 0.8,
+      "occurrences": 1
+    },
+    {
+      "pattern": "GPU container exited with code: 137",
+      "severity": "ERROR",
+      "category": "container",
+      "description": "The GPU container has been terminated due to resource constraints, possibly indicating a memory or CPU overflow.",
+      "source": "ai",
+      "discovered": "2026-04-02",
+      "confidence": 0.9,
       "occurrences": 1
     }
   ]
