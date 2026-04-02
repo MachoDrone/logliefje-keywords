@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated": "2026-04-02T08:00:21Z",
+  "updated": "2026-04-02T08:01:05Z",
   "keywords": [
     {
       "pattern": "thread 'main' panicked",
@@ -1407,6 +1407,26 @@
       "severity": "WARN",
       "category": "resource",
       "description": "The GPU resource utilization is higher than the set threshold, which could lead to performance degradation or instability.",
+      "source": "ai",
+      "discovered": "2026-04-02",
+      "confidence": 0.8,
+      "occurrences": 1
+    },
+    {
+      "pattern": "Warning: frpc-* process exited with code 15",
+      "severity": "WARN",
+      "category": "frpc",
+      "description": "Indicates that the reverse proxy tunneling service has unexpectedly stopped.",
+      "source": "ai",
+      "discovered": "2026-04-02",
+      "confidence": 0.9,
+      "occurrences": 1
+    },
+    {
+      "pattern": "Error: Failed to parse job assignment from Solana",
+      "severity": "ERROR",
+      "category": "parsing",
+      "description": "The node is unable to correctly interpret the data received from the Solana blockchain.",
       "source": "ai",
       "discovered": "2026-04-02",
       "confidence": 0.8,
