@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated": "2026-04-02T17:50:40Z",
+  "updated": "2026-04-02T17:51:13Z",
   "keywords": [
     {
       "pattern": "thread 'main' panicked",
@@ -1447,6 +1447,16 @@
       "severity": "FATAL",
       "category": "resource",
       "description": "The node is running out of system resources, specifically memory, which can lead to performance degradation or crashes.",
+      "source": "ai",
+      "discovered": "2026-04-02",
+      "confidence": 0.9,
+      "occurrences": 1
+    },
+    {
+      "pattern": "Error: [lmdeploy] Container exited with code 137",
+      "severity": "ERROR",
+      "category": "container",
+      "description": "This indicates that an lmdeploy container was terminated due to exceeding its memory limits, which can lead to job failures.",
       "source": "ai",
       "discovered": "2026-04-02",
       "confidence": 0.9,
