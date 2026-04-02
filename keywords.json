@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated": "2026-04-02T08:01:05Z",
+  "updated": "2026-04-02T17:50:40Z",
   "keywords": [
     {
       "pattern": "thread 'main' panicked",
@@ -1430,6 +1430,26 @@
       "source": "ai",
       "discovered": "2026-04-02",
       "confidence": 0.8,
+      "occurrences": 1
+    },
+    {
+      "pattern": "GPU container exited with code: [1-255]",
+      "severity": "ERROR",
+      "category": "gpu",
+      "description": "The GPU container has terminated unexpectedly, which could be due to a variety of issues such as resource constraints or software bugs.",
+      "source": "ai",
+      "discovered": "2026-04-02",
+      "confidence": 0.8,
+      "occurrences": 1
+    },
+    {
+      "pattern": "nosana-node: [FATAL] Out of memory during job execution",
+      "severity": "FATAL",
+      "category": "resource",
+      "description": "The node is running out of system resources, specifically memory, which can lead to performance degradation or crashes.",
+      "source": "ai",
+      "discovered": "2026-04-02",
+      "confidence": 0.9,
       "occurrences": 1
     }
   ]
