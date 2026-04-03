@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated": "2026-04-03T13:54:28Z",
+  "updated": "2026-04-03T13:55:03Z",
   "keywords": [
     {
       "pattern": "thread 'main' panicked",
@@ -1527,6 +1527,26 @@
       "severity": "FATAL",
       "category": "process",
       "description": "The nosana-node process was terminated due to resource issues, such as memory or CPU limits being exceeded.",
+      "source": "ai",
+      "discovered": "2026-04-03",
+      "confidence": 0.8,
+      "occurrences": 1
+    },
+    {
+      "pattern": "Failed to allocate GPU memory: Out of device memory",
+      "severity": "ERROR",
+      "category": "gpu",
+      "description": "Indicates that the node is unable to allocate required GPU memory, possibly due to resource exhaustion.",
+      "source": "ai",
+      "discovered": "2026-04-03",
+      "confidence": 0.9,
+      "occurrences": 1
+    },
+    {
+      "pattern": "frpc-* exited with code: 143",
+      "severity": "ERROR",
+      "category": "frpc",
+      "description": "This error suggests that the reverse proxy tunnel has been terminated due to inactivity or a specific condition, possibly indicating network instability.",
       "source": "ai",
       "discovered": "2026-04-03",
       "confidence": 0.8,
