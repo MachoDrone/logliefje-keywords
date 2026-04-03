@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated": "2026-04-03T09:39:48Z",
+  "updated": "2026-04-03T13:53:59Z",
   "keywords": [
     {
       "pattern": "thread 'main' panicked",
@@ -1497,6 +1497,16 @@
       "severity": "ERROR",
       "category": "frpc",
       "description": "This indicates that one of the reverse proxy tunnels (frpc) was terminated due to a lack of memory, suggesting potential resource constraints or misconfiguration.",
+      "source": "ai",
+      "discovered": "2026-04-03",
+      "confidence": 0.9,
+      "occurrences": 1
+    },
+    {
+      "pattern": "Failed to establish connection with Solana cluster: Connection refused",
+      "severity": "ERROR",
+      "category": "solana",
+      "description": "The node is unable to connect to the Solana blockchain, which could be due to network issues or the Solana cluster being down.",
       "source": "ai",
       "discovered": "2026-04-03",
       "confidence": 0.9,
