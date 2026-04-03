@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated": "2026-04-02T23:24:52Z",
+  "updated": "2026-04-03T09:39:48Z",
   "keywords": [
     {
       "pattern": "thread 'main' panicked",
@@ -1489,6 +1489,16 @@
       "description": "The GPU container has been terminated due to resource constraints, possibly indicating a memory or CPU overflow.",
       "source": "ai",
       "discovered": "2026-04-02",
+      "confidence": 0.9,
+      "occurrences": 1
+    },
+    {
+      "pattern": "Error: frpc-* exited with code 137",
+      "severity": "ERROR",
+      "category": "frpc",
+      "description": "This indicates that one of the reverse proxy tunnels (frpc) was terminated due to a lack of memory, suggesting potential resource constraints or misconfiguration.",
+      "source": "ai",
+      "discovered": "2026-04-03",
       "confidence": 0.9,
       "occurrences": 1
     }
