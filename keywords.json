@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated": "2026-04-03T13:53:59Z",
+  "updated": "2026-04-03T13:54:28Z",
   "keywords": [
     {
       "pattern": "thread 'main' panicked",
@@ -1510,6 +1510,26 @@
       "source": "ai",
       "discovered": "2026-04-03",
       "confidence": 0.9,
+      "occurrences": 1
+    },
+    {
+      "pattern": "Failed to connect to Solana cluster: ConnectionRefused",
+      "severity": "ERROR",
+      "category": "solana",
+      "description": "The node is unable to establish a connection with the Solana blockchain, which could be due to network issues or the Solana cluster being down.",
+      "source": "ai",
+      "discovered": "2026-04-03",
+      "confidence": 0.9,
+      "occurrences": 1
+    },
+    {
+      "pattern": "nosana-node exited with code: 137",
+      "severity": "FATAL",
+      "category": "process",
+      "description": "The nosana-node process was terminated due to resource issues, such as memory or CPU limits being exceeded.",
+      "source": "ai",
+      "discovered": "2026-04-03",
+      "confidence": 0.8,
       "occurrences": 1
     }
   ]
