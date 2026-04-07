@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated": "2026-04-03T13:55:03Z",
+  "updated": "2026-04-07T16:22:52Z",
   "keywords": [
     {
       "pattern": "thread 'main' panicked",
@@ -1550,6 +1550,26 @@
       "source": "ai",
       "discovered": "2026-04-03",
       "confidence": 0.8,
+      "occurrences": 1
+    },
+    {
+      "pattern": "AxiosError: getaddrinfo EAI_AGAIN nosana.mypinata.cloud (x1)",
+      "severity": "ERROR",
+      "category": "network",
+      "description": "This error indicates a network resolution failure for the domain 'nosana.mypinata.cloud'.",
+      "source": "ai",
+      "discovered": "2026-04-07",
+      "confidence": 1.0,
+      "occurrences": 1
+    },
+    {
+      "pattern": "HeadersTimeoutError",
+      "severity": "ERROR",
+      "category": "network",
+      "description": "The node encountered a timeout error while trying to fetch headers from the Solana blockchain.",
+      "source": "ai",
+      "discovered": "2026-04-07",
+      "confidence": 0.9,
       "occurrences": 1
     }
   ]
