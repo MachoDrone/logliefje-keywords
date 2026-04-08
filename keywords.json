@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated": "2026-04-07T16:22:52Z",
+  "updated": "2026-04-08T02:48:34Z",
   "keywords": [
     {
       "pattern": "thread 'main' panicked",
@@ -1569,6 +1569,26 @@
       "description": "The node encountered a timeout error while trying to fetch headers from the Solana blockchain.",
       "source": "ai",
       "discovered": "2026-04-07",
+      "confidence": 0.9,
+      "occurrences": 1
+    },
+    {
+      "pattern": "GPU usage exceeds threshold: [value]",
+      "severity": "WARN",
+      "category": "gpu",
+      "description": "The GPU is being used beyond its configured limits, which could lead to performance degradation or resource exhaustion.",
+      "source": "ai",
+      "discovered": "2026-04-08",
+      "confidence": 0.8,
+      "occurrences": 1
+    },
+    {
+      "pattern": "nosana-node restart loop detected: [count] times in the last hour",
+      "severity": "ERROR",
+      "category": "process",
+      "description": "The nosana-node process is restarting frequently, which could be due to instability or critical issues.",
+      "source": "ai",
+      "discovered": "2026-04-08",
       "confidence": 0.9,
       "occurrences": 1
     }
