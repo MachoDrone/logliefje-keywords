@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated": "2026-04-08T02:48:34Z",
+  "updated": "2026-04-10T02:47:40Z",
   "keywords": [
     {
       "pattern": "thread 'main' panicked",
@@ -1589,6 +1589,16 @@
       "description": "The nosana-node process is restarting frequently, which could be due to instability or critical issues.",
       "source": "ai",
       "discovered": "2026-04-08",
+      "confidence": 0.9,
+      "occurrences": 1
+    },
+    {
+      "pattern": "Error: GPU memory allocation failed",
+      "severity": "ERROR",
+      "category": "gpu",
+      "description": "Indicates a failure in allocating GPU memory during job execution.",
+      "source": "ai",
+      "discovered": "2026-04-10",
       "confidence": 0.9,
       "occurrences": 1
     }
