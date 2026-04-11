@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated": "2026-04-11T13:34:40Z",
+  "updated": "2026-04-11T16:24:03Z",
   "keywords": [
     {
       "pattern": "thread 'main' panicked",
@@ -1620,6 +1620,16 @@
       "source": "ai",
       "discovered": "2026-04-11",
       "confidence": 0.8,
+      "occurrences": 1
+    },
+    {
+      "pattern": "container state: uptime 0 days, 1 hours, 50 minutes",
+      "severity": "INFO",
+      "category": "container",
+      "description": "Indicates the container has been running for a long time without restarts.",
+      "source": "ai",
+      "discovered": "2026-04-11",
+      "confidence": 0.9,
       "occurrences": 1
     }
   ]
