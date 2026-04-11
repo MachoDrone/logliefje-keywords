@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated": "2026-04-10T02:47:40Z",
+  "updated": "2026-04-11T13:34:40Z",
   "keywords": [
     {
       "pattern": "thread 'main' panicked",
@@ -1600,6 +1600,26 @@
       "source": "ai",
       "discovered": "2026-04-10",
       "confidence": 0.9,
+      "occurrences": 1
+    },
+    {
+      "pattern": "Error: Failed to start container: Out of memory",
+      "severity": "ERROR",
+      "category": "gpu|resource",
+      "description": "The node is unable to start a GPU container due to insufficient memory resources.",
+      "source": "ai",
+      "discovered": "2026-04-11",
+      "confidence": 0.85,
+      "occurrences": 1
+    },
+    {
+      "pattern": "Warning: frpc-* process exited with status 1",
+      "severity": "WARN",
+      "category": "frpc",
+      "description": "The reverse proxy process has terminated, which could disrupt job connectivity.",
+      "source": "ai",
+      "discovered": "2026-04-11",
+      "confidence": 0.8,
       "occurrences": 1
     }
   ]
