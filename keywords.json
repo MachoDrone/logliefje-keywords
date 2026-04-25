@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated": "2026-04-25T22:04:45Z",
+  "updated": "2026-04-25T22:15:47Z",
   "keywords": [
     {
       "pattern": "thread 'main' panicked",
@@ -1650,6 +1650,36 @@
       "source": "ai",
       "discovered": "2026-04-25",
       "confidence": 0.95,
+      "occurrences": 1
+    },
+    {
+      "pattern": "createConnectionError (node:net:1634:14)",
+      "severity": "ERROR",
+      "category": "network|container",
+      "description": "Indicates a connection error at the network level, possibly due to misconfigured network settings or resource exhaustion.",
+      "source": "ai",
+      "discovered": "2026-04-25",
+      "confidence": 0.9,
+      "occurrences": 1
+    },
+    {
+      "pattern": "at Connection.confirmTransactionUsingLegacyTimeoutStrategy",
+      "severity": "ERROR",
+      "category": "Blockchain Interaction Error",
+      "description": "Indicates issues with confirming transactions on the Solana blockchain, which could be due to network problems or delays.",
+      "source": "ai",
+      "discovered": "2026-04-25",
+      "confidence": 0.8,
+      "occurrences": 1
+    },
+    {
+      "pattern": "[errors]: [ [Error], [Error] ]",
+      "severity": "ERROR",
+      "category": "General Error Pattern",
+      "description": "Represents a recurring error pattern where multiple errors are logged, indicating potential system instability or ongoing issues.",
+      "source": "ai",
+      "discovered": "2026-04-25",
+      "confidence": 0.9,
       "occurrences": 1
     }
   ]
